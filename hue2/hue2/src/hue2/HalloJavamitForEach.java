@@ -5,10 +5,15 @@
  */
 package hue2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Marcel.Lindinger
  */
 public class HalloJavamitForEach {
+
+    List<String> liste = new ArrayList<String>();
 
 }
