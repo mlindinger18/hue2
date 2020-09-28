@@ -25,4 +25,7 @@ public class NumberTester {
 
     public void testFile() {
     }
+
+    public NumberTester() {
+    }
 }
