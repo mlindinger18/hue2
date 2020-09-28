@@ -6,6 +6,7 @@
 package hue2;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -14,6 +15,12 @@ import java.util.List;
  */
 public class HalloJavamitForEach {
 
-    List<String> liste = new ArrayList<String>();
+    List<String> liste = new ArrayList<>();
+
+    public void listForEach() {
+        liste.forEach((s) -> {
+            System.out.println(s);
+        });
+    }
 
 }
