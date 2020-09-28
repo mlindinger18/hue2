@@ -11,6 +11,8 @@ package hue2;
  */
 public class NumberTester {
 
+    public String pfad;
+
     public NumberTester(String fileName) {
     }
 
@@ -24,8 +26,5 @@ public class NumberTester {
     }
 
     public void testFile() {
-    }
-
-    public NumberTester() {
     }
 }
