@@ -8,6 +8,7 @@ package hue2;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  *
@@ -21,6 +22,8 @@ public class HalloJavamitForEach {
         liste.forEach((s) -> {
             System.out.println(s);
         });
+        Consumer<String> consumer = (String s) -> System.out.println(s);
+        liste.forEach(consumer);
     }
 
 }
